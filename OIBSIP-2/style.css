@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;    
+    } 
+
+body {    
+    width: 1000px;    
+    height: 400px;   
+    background-color:whitesmoke;   
+    display: grid;    
+    position: absolute;
+    left: 18%;
+    
+    }
+
+form {   
+    background-color:rgb(226, 216, 216);    
+    padding: 80px;   
+    width: 50%;  
+    margin: 100px auto;
+    text-align: center; 
+    }
+
+#tc label { 
+    font-size: 30px;   
+    } 
+#tep {
+    margin-top: 20px;
+    font-size: 20px; 
+    border: none;    
+    padding: 10px;    
+    height: 40px;
+    width: 100px; ► 
+    }   
+    
+#tmps {    
+    height: 40px; 
+    border: none;    
+    margin-top: 20px;    
+    font-size: 20px;    
+    vertical-align: top; 
+    }
+    .sub {
+    height: 35px;
+    margin: 20px;    
+    width: 100px;    
+    font-size: 18px; 
+    border: none;    
+    background-color: rgb(30, 232, 23);    
+    color: white;
+    }
+    .sub:hover {
+    background-color:blueviolet;
+    color: black;
+    }
+#rcon { 
+    font-size: 38px;
+    color: black;
+    }
+    

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans:wght@100&family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    background-color: #CAD9EB;
+    height: 100px;
+    
+}
+.mc{
+   /* background-color: rgba(233, 225, 213, 0.722);*/
+    height: 85vh;
+    width: 212.6vh;
+    position: absolute;
+    margin-top: 0px;
+}
+
+#sc{
+    background-color:black;/*hsl(313, 31%, 88%)*/
+}
+#mc{
+    background-color:rgb(255, 251, 246);
+}
+#bc{
+    background-color:rgb(225, 223, 223);
+}
+#cc{
+    background-color: rgb(250, 233, 212);
+}
+#list{
+    position: absolute;
+    top: 5%;
+    margin-left: 24%;
+    word-spacing: 100px;
+    list-style-type: none;
+    font-size: 24px; 
+}
+#list li a:hover{
+    color:rgb(151, 29, 178);
+}
+#list li a{
+    text-decoration: none;
+    color: black;
+}
+.inc{
+   /* background-color: #EC8EFA;*/
+    height: 60vh;
+    width: 150vh;
+    margin: 100px auto;
+    margin-left: 13.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.dvin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+font-size: 82px;
+}
+.name{
+font-size: 55px;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+.about{
+font-size: 34px;
+
+}
+.abmo{
+    font-size: 19px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 18px;
+    font-weight: bold;
+}
+.btn button{
+margin-top: 30px;
+padding: 10px;
+border-radius: 40px;
+color: white;
+background-color: blueviolet;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.btn button:hover{
+background-color:  white;
+color: blueviolet;
+}
+.dvpc img{
+    margin-top: 10%;
+    height: 350px;
+    width: 250px;
+}
+
+
+.confo{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.confo h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+.confo form div{
+padding:10px 0;
+display: flex;
+flex-direction: column;
+}
+.confo form div input{
+    width: 280px;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.confo form div label{
+    font-size: 18px;
+    font-weight: bold;
+}
+#emailHelp{
+    font-size: 12px;
+    color: slateblue;
+    margin: 0 4px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row; 
+    margin-left: -133px;
+}
+.form-check-label{
+    margin-left: -120px;
+}
+#cbtn{
+    width: 110px;
+}
+
+
+.blcnt{
+    margin: 23px;
+}
+
+h1{  
+    font-family: 'Fira Sans', sans-serif;
+}
+#blcntti{
+    font-weight:bolder;
+}
+.blitemo{
+    margin: 20px;
+}
+.blitemt{
+    margin: 20px;
+}
+.blitemth{
+    margin: 20px;
+}
+h2{
+
+}
+p{
+  font-family: 'Source Code Pro', monospace;
+}
+#blcntp{
+    font-weight: 600;
+}
+#blcnhti{
+    font-size: 26px;
+}
+
+
+.miint{
+    margin: 23px;  
+    
+}
+.miint h1{  
+    font-family: 'Fira Sans', sans-serif; 
+    margin: 12px;  
+}
+.miint h2{  
+    font-family: 'Fira Sans', sans-serif; 
+    margin: 12px;
+}
+.miint p{
+  font-family: 'Source Code Pro', monospace;
+  margin: 12px; 
+}
+.in-itm{
+    font-weight: 800;
+}
+.skillc{
+    padding: 12px;
+}
+.skiIt{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:900 ;
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+.hund{
+    width: 265px;
+    background-color:chartreuse;
+}
+.s5{
+    width: 198;
+    background-color:rgb(232, 27, 194);
+}
+.fif{
+    width: 132px;
+    background-color: rgb(222, 237, 12);
+}
+.t5{
+    width: 66px;
+    background-color: cyan;
+}
+
+.sec_ti{
+    width: 101.3%;
+    text-align: center;   
+    font-size: 30px;
+    color: white;
+}
+.sec_subti{
+    position: absolute;
+    top: 8%;
+    margin-left:47.4%;
+    font-size: 140%;
+    color: white;
+}
+.servi_cer{
+    background-color: rgb(8, 178, 8);   
+}
+.servi_cnt{
+    height: 200px;
+    width: 290px;
+    margin: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    background-color: rgb(61, 60, 60);
+    border-radius: 2%;
+
+}
+
+#servi_cntidt{
+    position: absolute; 
+    left: 40%;
+    
+}
+#servi_cntidth{
+    position: absolute;   
+    left: 62%;
+    
+}
+
+.butns{
+position: absolute;
+top:72%;
+margin-left: 30%;
+padding: 10px;
+border-radius: 40px;
+color: white;
+background-color: red;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.butns:hover{
+background-color:  white;
+color: red;
+}
+.serv_ti{
+    margin: 20px;
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+}
+
+.servi_cnt i{
+height: 5px;
+width: 5px;
+
+}
+#icon{
+    color: red;
+    font-size: 200%;
+    margin-left: 45%;
+}
+
+
